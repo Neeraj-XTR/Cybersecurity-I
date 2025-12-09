@@ -32,8 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# so what this __name__ does is it keeps the control of running the functions below it when ran directly
-# through CLI/as a script. so when it is imported the script wont run by mistake since the if condition will be
-# if __name__ == "filename.py" if you want to run the script when someone imports it use this:
-#if __name__ == "filename.py"
